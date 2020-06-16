@@ -82,3 +82,16 @@ hr {
     height: 2px;
     background-color:gainsboro;
   }
+
+  #boton{
+    display:flex;
+    justify-content: right;
+    background: #eaa01a;
+    border: 1px solid #eaa01a;
+    color: #fff;
+    font-weight: 100;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+    padding: 10px 40px;
+}

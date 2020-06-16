@@ -1,12 +1,18 @@
 //Relojes Mundiales (5 principales)
 //Horas de las siguientes ciudades: Madrid, Londres, Los Angeles, Nueva York, Sidney.
 
+
+//Funcion para agregar un cero cuando la hora , minutos y segundos son 1..9
+
 function ponerCero(i){
     if(i<10){
         i='0'+i;
     }
     return i;
 }
+
+
+//Fucion que da la hora de Madrid, corresponde con la de Baleares
 
 function relojMadrid() {
 
@@ -25,6 +31,7 @@ function relojMadrid() {
 
 }
 
+//Funcion que Calcula la hora de Londres con respecto a Madrid
 
 function relojLondres() {
 
@@ -44,6 +51,8 @@ function relojLondres() {
 
 }
 
+//Funcion que Calcula la hora de Los Angeles con respecto a Madrid
+
 function relojLA() {
 
     var fechaHora= new Date();
@@ -60,6 +69,8 @@ function relojLA() {
     setTimeout('relojLA()',500);
 
 }
+
+//Funcion que calcula la hora de Nueva York Con respecto a Madrid
 
 function relojNY() {
 
@@ -79,6 +90,8 @@ function relojNY() {
 
 }
 
+//Funcion que calcula la hora de Sidney Con respecto a Madrid
+
 function relojSidney() {
 
     var fechaHora= new Date();
@@ -97,6 +110,8 @@ function relojSidney() {
     
 
 }
+
+//Se ejecuta a partir de la carga de la pagina.
 
 window.onload = function() {
     relojMadrid();
