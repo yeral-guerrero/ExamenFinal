@@ -1,0 +1,84 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:black;
+    
+    }
+
+header{
+        position:relative; 
+        height:70px;
+        color:white;
+    }
+h1{
+    display: flex;
+    text-align:left;
+    color:white;
+    text-align:left;
+    font-size:3rem;
+}
+
+    
+main {
+        display:block;
+        position:relative; 
+        width: 40%;
+        justify-content: center;
+        
+        
+    }
+
+
+#reloj{
+    background-color: #000;
+    padding: 0.5rem;
+    color:rgb(18,145,28);
+    font-family: serif;
+    font-size: 3rem;
+    display: flex;
+    text-align: center;
+    
+}
+
+#relojLondres{
+    background-color: #000;
+    padding: 0.5rem;
+    color:rgb(18,145,28);
+    font-family: serif;
+    font-size: 3rem;
+    display: flex;
+}
+
+#relojLA{
+    background-color: #000;
+    padding: 0.5rem;
+    color:rgb(18,145,28);
+    font-family: serif;
+    font-size: 3rem;
+    display: flex;
+}
+
+#relojNY{
+    background-color: #000;
+    padding: 0.5rem;
+    color:rgb(18,145,28);
+    font-family: serif;
+    font-size: 3rem;
+    display: flex;
+}
+
+#relojSidney{
+    background-color: #000;
+    padding: 0.5rem;
+    color:rgb(18,145,28);
+    font-family: serif;
+    font-size: 3rem;
+    display: flex;
+}
+
+hr {
+    height: 2px;
+    background-color:gainsboro;
+  }
